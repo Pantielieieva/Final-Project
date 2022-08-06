@@ -1,0 +1,83 @@
+.container {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  text-align: center;
+}
+
+#cityInput {
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(62, 164, 228);
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+}
+
+#citySubmit {
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(62, 164, 228);
+  background: #fff1eb;
+  color: rgb(62, 164, 228);
+  text-decoration: none;
+  transition: all 200ms ease;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+}
+
+#citySubmit:hover {
+  cursor: pointer;
+  color: #fff1eb;
+  background: rgb(62, 164, 228);
+}
+
+ul {
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  list-style-type: none;
+}
+
+#city {
+  text-align: center;
+  margin: 30px 0 10px;
+  font-weight: 600;
+}
+
+p {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#last-date {
+  margin: 0 auto;
+}
+
+.weather-forecast-date {
+  font-size: 18px;
+  color: #000;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 16px;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+#temperature {
+  font-size: 50px;
+}
+
+.unit-cels {
+  position: relative;
+  font-size: 14px;
+  top: -15px;
+}
+
+.unit-fahr {
+  position: relative;
+  font-size: 14px;
+  top: -15px;
+}
